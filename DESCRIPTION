@@ -15,7 +15,7 @@ Description: Creates probability maps of incident and enlarging lesion
 License: GPL
 LazyData: true
 Depends: oro.nifti
-Imports: downloader, graphics, stats, grDevices
+Imports: downloader, graphics, stats, grDevices, AnalyzeFMRI
 RoxygenNote: 5.0.1.9000
 Repository: Neuroconductor-Devel
 Suggests: 
