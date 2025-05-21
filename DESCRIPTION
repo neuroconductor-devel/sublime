@@ -22,6 +22,6 @@ Suggests:
     testthat,
     covr
 Remotes: 
-    neuroconductor-devel/oro.nifti@517ce5312094bf1ecee49bd09024769d3e5d2daa
+    neuroconductor-devel/oro.nifti@517ce5312094bf1ecee49bd09024769d3e5d2daa,
     cran/AnalyzeFMRI
 biocViews: 
