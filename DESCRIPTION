@@ -1,33 +1,30 @@
 Package: sublime
 Type: Package
-Title: Automatic Lesion Incidence Estimation and Detection using 
-    Multi-Modality Longitudinal Magnetic Resonance Images
+Title: Automatic Lesion Incidence Estimation and Detection using
+        Multi-Modality Longitudinal Magnetic Resonance Images
 Version: 1.6.4
 Date: 2025-06-04
-Authors@R: c(person(given = "Elizabeth M.", "Sweeney",  
-  email = "elizabethmargaretsweeney@gmail.com", role = c("aut", "cre")),
-  person(given = "John", "Muschelli",  
-  email = "muschellij2@gmail.com", role = c("aut"))
-  )
+Authors@R: c(person(given = "Elizabeth M.", "Sweeney", email =
+        "elizabethmargaretsweeney@gmail.com", role = c("aut", "cre")),
+        person(given = "John", "Muschelli", email =
+        "muschellij2@gmail.com", role = c("aut")) )
 Maintainer: Elizabeth M. Sweeney <elizabethmargaretsweeney@gmail.com>
-Description: Creates probability maps of incident and enlarging lesion voxels
-    from a baseline and followup magnetic resonance imaging study in 
-    patients with multiple sclerosis.
+Description: Creates probability maps of incident and enlarging lesion
+        voxels from a baseline and followup magnetic resonance imaging
+        study in patients with multiple sclerosis.
 License: GPL
 LazyData: true
-Depends:
-    oro.nifti,
-    R (>= 2.10)
-Imports:
-    downloader,
-    graphics,
-    stats,
-    grDevices,
-    AnalyzeFMRI
+Depends: oro.nifti, R (>= 2.10)
+Imports: downloader, graphics, stats, grDevices, AnalyzeFMRI
 RoxygenNote: 7.3.2
 Encoding: UTF-8
 Suggests: 
     testthat (>= 2.1.0),
-    neurobase
-Remotes:
-    adigherman/AnalyzeFMRI
+    neurobase,
+    covr
+Repository: Neuroconductor-Devel
+Remotes:  
+    adigherman/AnalyzeFMRI,
+    neuroconductor-devel/oro.nifti@517ce5312094bf1ecee49bd09024769d3e5d2daa,
+    neuroconductor-devel/neurobase@bed9014475564a8aaf3ddfcb64f3b8439383b99d
+biocViews: 
